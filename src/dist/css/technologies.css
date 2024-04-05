@@ -1,0 +1,38 @@
+/*
+0 - 600px          Phone
+600px - 900px      Tablet portrait
+900px - 1200px     Tablet landscape
+1200px - 1800px    Desktop
+
+
+$breakpoint argument choices
+- phone
+- tab-port
+- tab-land
+- desktop
+*/
+.technologies {
+  padding-block: 5rem;
+}
+.technologies__header {
+  margin-bottom: 47px;
+}
+.technologies__header h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4rem;
+}
+.technologies__container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.technologies__container li {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  box-shadow: 0 0 3px var(--white);
+}
+.technologies__container h6 {
+  color: #061d31;
+}/*# sourceMappingURL=technologies.css.map */

@@ -1,0 +1,25 @@
+/*
+0 - 600px          Phone
+600px - 900px      Tablet portrait
+900px - 1200px     Tablet landscape
+1200px - 1800px    Desktop
+
+
+$breakpoint argument choices
+- phone
+- tab-port
+- tab-land
+- desktop
+*/
+.footer {
+  padding-block: 5rem;
+}
+.footer__container {
+  max-width: 1280px;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  padding: 45px 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=footer.css.map */

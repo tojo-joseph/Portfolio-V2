@@ -1,0 +1,15 @@
+@import "../../../assets/styles/mixins.scss";
+
+.project {
+  @include respond(phone) {
+    position: relative;
+  }
+}
+
+.projects {
+  &__individual {
+    @include respond(phone) {
+      position: absolute !important;
+    }
+  }
+}

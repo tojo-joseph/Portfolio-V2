@@ -1,0 +1,69 @@
+/*
+0 - 600px          Phone
+600px - 900px      Tablet portrait
+900px - 1200px     Tablet landscape
+1200px - 1800px    Desktop
+
+
+$breakpoint argument choices
+- phone
+- tab-port
+- tab-land
+- desktop
+*/
+.projects {
+  padding-block: 5rem;
+}
+.projects__header {
+  text-align: center;
+  margin-bottom: 96px;
+}
+.projects__header h2 {
+  font-size: 4rem;
+  margin-bottom: 20.5px;
+}
+.projects__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem 2rem;
+  flex-wrap: wrap;
+}
+.projects__container p {
+  font-family: "Nunito", sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+}
+.projects__container p.text-white {
+  color: var(--white);
+}
+.projects__container p.text-gray {
+  color: var(--spanish-gray);
+}
+@keyframes pulse {
+  from, to {
+    scale: 1;
+  }
+  50% {
+    scale: 1.08;
+  }
+}
+.projects__image {
+  z-index: 5;
+  background-color: var(--glassmorphism-dark-blue);
+  border-radius: 6px;
+}
+.projects__individual {
+  cursor: pointer;
+}
+@media screen and (max-width: 56.25em) {
+  .projects__individual {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+.card:hover .content {
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}/*# sourceMappingURL=projects.css.map */
