@@ -1,0 +1,34 @@
+/*
+0 - 600px          Phone
+600px - 900px      Tablet portrait
+900px - 1200px     Tablet landscape
+1200px - 1800px    Desktop
+
+
+$breakpoint argument choices
+- phone
+- tab-port
+- tab-land
+- desktop
+*/
+.middlesection {
+  padding-block: 5rem;
+}
+.middlesection__container {
+  background: url("../../assets/images/blue-gradient-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 46px 51px;
+  border-radius: 6px;
+  max-width: 1284px;
+}
+.middlesection__container h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4rem;
+  margin-bottom: 1.3rem;
+}
+.middlesection__container p {
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 1.3rem;
+}/*# sourceMappingURL=middlesection.css.map */

@@ -1,0 +1,39 @@
+/*
+0 - 600px          Phone
+600px - 900px      Tablet portrait
+900px - 1200px     Tablet landscape
+1200px - 1800px    Desktop
+
+
+$breakpoint argument choices
+- phone
+- tab-port
+- tab-land
+- desktop
+*/
+.testimonials {
+  padding-block: 5rem;
+}
+.testimonials__header {
+  margin-bottom: 105px;
+}
+.testimonials__header h3 {
+  font-size: 4rem;
+  margin-bottom: 20.5px;
+}
+.testimonials__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem 3rem;
+  flex-wrap: wrap;
+}
+.testimonials__container h5,
+.testimonials__container h6 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.testimonials__container img {
+  background-color: transparent;
+}/*# sourceMappingURL=testimonials.css.map */
