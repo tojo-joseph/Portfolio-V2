@@ -5,9 +5,10 @@ import { useCardStore } from "../../../../utils/context/store";
 type Props = {
   children: ReactNode;
   id: string;
+  handleProjectLink: () => void;
 };
 
-export const ProjectTitle = ({ children, id }: Props) => {
+export const ProjectTitle = ({ children, id, handleProjectLink }: Props) => {
   const ref = useRef<HTMLParagraphElement>(null);
 
   const isInView = useInView(ref, { margin: "-50% 0px -50% 0px" });
@@ -25,7 +26,12 @@ export const ProjectTitle = ({ children, id }: Props) => {
   return (
     <p
       ref={ref}
-      style={{ paddingBottom: "16px", transition: "color 0.3s" }}
+      style={{
+        paddingBottom: "16px",
+        transition: "color 0.3s",
+        cursor: "pointer",
+      }}
+      onClick={handleProjectLink}
       className={isInView ? "text-white" : "text-gray"}
     >
       {children}{" "}
