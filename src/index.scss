@@ -126,6 +126,20 @@ body {
   background-color: var(--dark-blue);
 }
 
+body::-webkit-scrollbar {
+  width: 0.390625vw;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 20px;
+}
+
 img {
   display: block;
 }
@@ -161,7 +175,7 @@ a {
   }
 
   @include respond(phone) {
-    padding-inline: 0.8rem;
+    padding-inline: 1.5rem;
   }
 }
 

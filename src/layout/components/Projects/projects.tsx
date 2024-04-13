@@ -24,15 +24,15 @@ function Projects() {
       title: "Malayali Beer",
       description: "This is a description of project 1",
       image: "Malayali",
-      link: "#",
       card: MalayaliCard,
+      link: "https://www.malayali.rocks/",
     },
     {
       id: 2,
       title: "Acceron",
       description: "This is a description of project 2",
       image: "Acceron",
-      link: "#",
+      link: "https://www.acceron.co/",
       card: AcceronCard,
     },
     {
@@ -48,7 +48,7 @@ function Projects() {
       title: "Favhiker",
       description: "This is a description of project 3",
       image: "Favhiker",
-      link: "#",
+      link: "https://www.favhiker.com/",
       card: FavhikerCard,
     },
   ];

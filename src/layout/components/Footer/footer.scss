@@ -11,5 +11,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @include respond(phone) {
+      max-width: 90%;
+    }
   }
 }

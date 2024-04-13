@@ -9,6 +9,10 @@ function ProjectCard(props: any) {
     props.projectsData.map((e: any) => e.title)
   );
 
+  const handleProjectLink = (link: any) => {
+    window.open(link, "_blank");
+  };
+
   return (
     <div
       className="project w-100 d-flex align-items-start"
@@ -25,7 +29,12 @@ function ProjectCard(props: any) {
           {props.projectsData.map((project: any) => {
             return (
               <li key={project.id}>
-                <ProjectTitle id={project.id}>{project.title}</ProjectTitle>
+                <ProjectTitle
+                  id={project.id}
+                  handleProjectLink={() => handleProjectLink(project.link)}
+                >
+                  {project.title}
+                </ProjectTitle>
               </li>
             );
           })}

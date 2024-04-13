@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import "./navbar.scss";
-import Logo from "../../assets/images/portfolio-logo.svg";
+import Logo from "../../assets/images/portfolio_logo.png";
 import { AnimatePresence, motion } from "framer-motion";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { Link } from "@mui/material";
 import bgImage from "../../assets/images/blue-stars-white.png";
+import TableRowsIcon from "@mui/icons-material/TableRows";
 
 const mobileLinkVars = {
   initial: {
@@ -183,7 +184,8 @@ function Navbar() {
           </motion.div>
 
           <div className="navbar__menu" onClick={() => setShowNav(!showNav)}>
-            <MenuIcon />
+            {/* <MenuIcon /> */}
+            <TableRowsIcon />
           </div>
         </nav>
 
