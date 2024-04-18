@@ -2,7 +2,7 @@ import axios from "axios";
 import React from "react";
 
 const API_URL =
-  "https://portfolio-v2-backend-tojo-josephs-projects.vercel.app/api/";
+  "https://portfolio-v2-backend-git-main-tojo-josephs-projects.vercel.app/api/";
 
 let stateAccessToken: any = null;
 
